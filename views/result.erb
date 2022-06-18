@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/omikuji.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      
+    </div>
+    
+  </div>
+  <p><%= @uname %>さんの運勢は...</p>
+  <h1><%= @result %></h1>
+  <form action="/result" method="get">
+    <input type="hidden" name="username" value=<%= @uname %>>
+    <input type="submit" value="もう一度占う">
+  </form>
+  <a href="/">最初に戻る</a>
+</body>
+</html>
