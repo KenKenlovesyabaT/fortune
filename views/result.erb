@@ -14,7 +14,7 @@
     
   </div>
   <p><%= @uname %>さんの運勢は...</p>
-  <h1><%= @result %></h1>
+  <h1 style="border-color:<%= @color %>"><%= @result %></h1>
   <form action="/result" method="get">
     <input type="hidden" name="username" value=<%= @uname %>>
     <input type="submit" value="もう一度占う">

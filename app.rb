@@ -30,12 +30,15 @@ get '/result' do
   if rnum < 6
     @result = "小吉!"
     history.small = history.small + 1
+    @color = "#009688"
   elsif rnum < 9
     @result = "中吉!"
     history.good = history.good + 1
+    @color = "#d36015"
   else 
     @result = "大吉!"
     history.excellent = history.excellent + 1
+    @color = "#dc143c"
   end
   
   history.total = history.total + 1
