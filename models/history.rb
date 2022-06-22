@@ -1,4 +1,4 @@
 ActiveRecord::Base.establish_connection
-class Count < ActiveRecord::Base
+class History < ActiveRecord::Base
 
 end

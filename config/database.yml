@@ -1,7 +1,7 @@
 default_env: &default
   adapter: postgresql
   encoding: unicode
-  database: s_count
+  database: s_fortune
 
 development:
   <<: *default
