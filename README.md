@@ -12,11 +12,17 @@
 
 Cloud 9のターミナルに`cd ~/environment`と入力して`~/environment`へ移動しましょう。
 
+![page1](https://github.com/KenKenlovesyabaT/fortune/blob/images/1.png?raw=true)
+
 ターミナルに以下のコマンドを入力しましょう。
 
 `git clone https://github.com/KenKenlovesyabaT/fortune.git`
 
+![page2](https://github.com/KenKenlovesyabaT/fortune/blob/images/2.png?raw=true)
+
 ターミナルに`cd fortune`と入力してfortuneフォルダへ移動しましょう。
+
+![page3](https://github.com/KenKenlovesyabaT/fortune/blob/images/3.png?raw=true)
 
 #### 2.コマンドの入力
 ターミナルに以下のコマンドを入力しましょう。
@@ -34,6 +40,7 @@ Cloud 9のターミナルに`cd ~/environment`と入力して`~/environment`へ�
 いつものコマンド(`ruby app.rb`)でアプリを起動しましょう。
 
 下図のような画面が開けたら準備完了です！
+![top-page](https://github.com/KenKenlovesyabaT/fortune/blob/images/top.png?raw=true)
 
 ## タスク一覧
 下に本チェックワークで取り組んでほしいタスクが一覧で表示してあります。
