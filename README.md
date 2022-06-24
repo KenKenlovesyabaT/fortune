@@ -16,6 +16,8 @@ Cloud 9のターミナルに`cd ~/environment`と入力して`~/environment`へ�
 
 `git clone https://github.com/KenKenlovesyabaT/fortune.git`
 
+ターミナルに`cd fortune`と入力してfortuneフォルダへ移動しましょう。
+
 #### 2.コマンドの入力
 ターミナルに以下のコマンドを入力しましょう。
 
@@ -29,7 +31,7 @@ Cloud 9のターミナルに`cd ~/environment`と入力して`~/environment`へ�
 
 #### 4.アプリの起動
 
-`cd fortune`で`fortune`フォルダに移動した後、いつものコマンド(`ruby app.rb`)でアプリを起動しましょう。
+いつものコマンド(`ruby app.rb`)でアプリを起動しましょう。
 
 下図のような画面が開けたら準備完了です！
 
