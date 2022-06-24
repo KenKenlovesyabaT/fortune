@@ -69,3 +69,13 @@ Point:小吉：`#009688` 中吉：`#d36015` 大吉：`#dc143c` に設定しよ�
 ・オリジナルの創意工夫をいれよう！
 
 Point：非同期処理(リロードすることなく占い結果や表を更新)、デザインの更新などに取り組んでみよう！
+
+#### 完成図
+
+レベル3までのタスクの実装を終えると下の画像のようになるはずです！
+
+こちらのスクリーンショットを参考に実装を進めましょう！
+
+![page4](https://github.com/KenKenlovesyabaT/fortune/blob/images/4.png?raw=true)
+
+![page5](https://github.com/KenKenlovesyabaT/fortune/blob/images/5.png?raw=true)

@@ -29,35 +29,7 @@
   <!-- 表を作成するにはtableタグを使うと良さそう...? -->
   <!-- データベースに入った値はapp.rb側でインスタンス変数に格納することでフロントでも扱えるようになる -->
   <!-- 現時点での確率=(×吉の出た回数) / (占いを行った総数)-->
-  <table class="table">
-    <thead>
-      <tr>
-        <th>運勢</th>
-        <th>総数</th>
-        <th>設定確率</th>
-        <th>確率</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th>小吉</th>
-        <th><%= @history.small %></th>
-        <th>60%</th>
-        <th><%= ((@history.small.to_f * 100) / @history.total).round(3)  %></th>
-      </tr>
-      <tr>
-        <th>中吉</th>
-        <th><%= @history.good %></th>
-        <th>30%</th>
-        <th><%= ((@history.good.to_f * 100) / @history.total).round(3)  %></th>
-      </tr>
-      <tr>
-        <th>大吉</th>
-        <th><%= @history.excellent %></th>
-        <th>10%</th>
-        <th><%= ((@history.excellent.to_f * 100) / @history.total).round(3)  %></th>
-      </tr>
-    </tbody>
-  </table>
+  <!-- tableのデザインを整えたいときは、tableタグのclass属性に"table"を加えると良い -->
+  
 </body>
 </html>
