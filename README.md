@@ -34,6 +34,7 @@ Cloud 9のターミナルに`cd ~/environment`と入力して`~/environment`へ�
 いつものコマンド(`ruby app.rb`)でアプリを起動しましょう。
 
 下図のような画面が開けたら準備完了です！
+![top-page](https://raw.githubusercontent.com/KenKenlovesyabaT/fortune/images/top.png)
 
 ## タスク一覧
 下に本チェックワークで取り組んでほしいタスクが一覧で表示してあります。
