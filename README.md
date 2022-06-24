@@ -11,12 +11,15 @@
 ダウンロード時点ではおみくじアプリの基礎部分のみ実装した状態になっています。
 
 Cloud 9のターミナルに`cd ~/environment`と入力して`~/environment`へ移動しましょう。
+![page1](https://github.com/KenKenlovesyabaT/fortune/blob/images/1.png?raw=true)
 
 ターミナルに以下のコマンドを入力しましょう。
 
 `git clone https://github.com/KenKenlovesyabaT/fortune.git`
 
+![page2](https://github.com/KenKenlovesyabaT/fortune/blob/images/2.png?raw=true)
 ターミナルに`cd fortune`と入力してfortuneフォルダへ移動しましょう。
+![page3](https://github.com/KenKenlovesyabaT/fortune/blob/images/3.png?raw=true)
 
 #### 2.コマンドの入力
 ターミナルに以下のコマンドを入力しましょう。
