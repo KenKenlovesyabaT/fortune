@@ -24,6 +24,8 @@ Cloud 9のターミナルに`cd ~/environment`と入力して`~/environment`へ�
 
 ![page3](https://github.com/KenKenlovesyabaT/fortune/blob/images/3.png?raw=true)
 
+ターミナルに`git checkout xx`(xxはメンバー名inローマ字)を入力しよう！
+
 #### 2.コマンドの入力
 ターミナルに以下のコマンドを入力しましょう。
 
