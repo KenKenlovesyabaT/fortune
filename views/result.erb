@@ -13,13 +13,22 @@
     </div>
     
   </div>
-  <p><%= @uname %>さんの運勢は...</p>
-  <h1 style="border-color:<%= @color %>"><%= @result %></h1>
+  <!-- 〇〇さんの運勢は... はここに追記しよう! -->
+  <!-- index.erbで入力された名前をapp.rbを経由してresult.erbで使用するためにはどうすれば...?  -->
+  <h1><%= @result %></h1>
+  <!-- h1の枠の色を条件に応じて変えるには...?  -->
+  <!-- style属性で新たにborder-colorを設定しなおせば色を変えられそう?  -->
+  <!-- 設定する色はapp.rb側で決定される...?  -->
   <form action="/result" method="get">
     <input type="hidden" name="username" value=<%= @uname %>>
     <input type="submit" value="もう一度占う">
   </form>
-  <a href="/">最初に戻る</a>
+  <!-- トップページに戻るリンクを作成するには...? -->
+  
+  <!-- 占いの結果を基に表を作成してみよう -->
+  <!-- 表を作成するにはtableタグを使うと良さそう...? -->
+  <!-- データベースに入った値はapp.rb側でインスタンス変数に格納することでフロントでも扱えるようになる -->
+  <!-- 現時点での確率=(×吉の出た回数) / (占いを行った総数)-->
   <table class="table">
     <thead>
       <tr>
