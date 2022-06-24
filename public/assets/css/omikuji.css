@@ -3,7 +3,8 @@
 }
 body{
     /* 全体の横幅 */
-    width: 640px;
+    /* width: 640px; */
+    width: 960px;
     /* 全体を中央寄せ */
     margin: auto;
     /* 全体の余白 */
