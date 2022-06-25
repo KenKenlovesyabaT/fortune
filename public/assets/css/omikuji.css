@@ -4,11 +4,22 @@
 body{
     /* 全体の横幅 */
     /* width: 640px; */
-    width: 960px;
+    /*width: 960px;*/
     /* 全体を中央寄せ */
-    margin: auto;
+    /*margin: auto;*/
     /* 全体の余白 */
-    padding: 10px;
+    /*padding: 10vh;*/
+    
+    position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 80%;
+  height: 50%;
+  
+    background: linear-gradient(45deg, #C87595, #75B7C8);
 }
 
 /* 数字 */
@@ -45,8 +56,8 @@ input{
     width: 80%;
     text-align: center;
     
-    /* 上との余白 */
-    margin-top: 20px;
+    /* 上下との余白 */
+    margin: 5vh auto;
     
     /* 文字の大きさ */
     font-size: 20px;
