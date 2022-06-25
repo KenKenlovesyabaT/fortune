@@ -72,9 +72,3 @@ input[value="+"]{
     /* 背景 */
     background: #448AFF;
 }
-
-/* マイナスボタン */
-input[value="-"]{
-    color: #f9f9f9;
-    background: #F44336;
-}
